@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="Pojo.reports" table="reports">
+		<id name="RID" type="int" column="rid">
+			<generator class="increment"></generator>
+		</id>
+		
+		
+		<property name="DAY1" column="DAY1"></property>		
+		<property name="DAY2" column="DAY2"></property>		
+		<property name="DAY3" column="DAY3"></property>		
+		<property name="DAY4" column="DAY4"></property>		
+		<property name="DAY5" column="DAY5"></property>		
+		<property name="DAY6" column="DAY6"></property>		
+		<property name="DAY7" column="DAY7"></property>		
+		<property name="DAY8" column="DAY8"></property>		
+		<property name="DAY9" column="DAY9"></property>		
+		<property name="DAY10" column="DAY10"></property>		
+		<property name="DAY11" column="DAY11"></property>		
+		<property name="DAY12" column="DAY12"></property>		
+		<property name="DAY13" column="DAY13"></property>		
+		<property name="DAY14" column="DAY14"></property>		
+		<property name="DAY15" column="DAY15"></property>		
+			
+			
+		
+		
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.links{
+	
+	
+	background-color:#004080;
+}
+
+.links a {
+    margin-left:100px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #818181;
+   
+}
+
+.links a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+ .jumbotron {
+    
+    background-image: url("../images/managerWel.jpg");
+    
+    margin-bottom: 0;
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height:250px;
+    color:white;
+}

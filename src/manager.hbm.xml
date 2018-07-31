@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="Pojo.manager" table="manager">
+		<id name="mid" type="int" column="uid">
+			<generator class="increment"></generator>
+		</id>
+		<property name="mpass" column="pass
+		"></property>
+		
+		<property name="mname" column="name"></property>		
+		<property name="memail" column="email"></property>
+		
+	</class>
+</hibernate-mapping>
